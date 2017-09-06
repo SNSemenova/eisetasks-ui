@@ -1,0 +1,122 @@
+.image__important-true,
+.image__urgent-true,
+.image__urgent-false,
+.image__important-false {
+  display: inline-block;
+  margin-right: 4px;
+  width: 19px;
+  height: 19px;
+  background: url(./images/IOff.svg);
+  background-size: cover;
+}
+.image__urgent-false {
+  background-image: url(./images/UOff.svg);
+}
+.image__urgent-true {
+  background-image: url(./images/UOn.svg);
+}
+.image__important-true {
+  background-image: url(./images/IOn.svg);
+}
+.info-task__block {
+  display: inline-block;
+  color: #5b5b5b;
+  font-family: Roboto,sans-serif;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 41px;
+}
+.color-block-Do {
+  background-image: linear-gradient(180deg, #fbdfdf 0%, #feb1b1 100%);
+  opacity: 0.8;
+}
+.color-block-Plan {
+  background-image: linear-gradient(180deg, #e3fdeb 0%, #afffc5 100%);
+  opacity: 0.8;
+}
+.color-block-Delegate {
+  background-image: linear-gradient(180deg, #ffffdb 0%, #fffaaa 100%);
+  opacity: 0.8;
+}
+.color-block-Drop {
+  background-image: linear-gradient(180deg, #f9f9f9 0%, #dfdfdf 100%);
+}
+.block__middle-text {
+  font-size: 27px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc((-26px / 2) - 10px));
+}
+.block__number-text {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+@media (max-width: 1020px) {
+
+  .info-task__block {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info-task__wrapper-img-Do {
+    text-align: start;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  .info-task__wrapper-img-Plan {
+    text-align: end;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+
+  .info-task__wrapper-img-Delegate {
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+  }
+
+  .info-task__wrapper-img-Drop {
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+  }
+
+  .block__number {
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: calc(50% + 26px + 5px);
+    left: 50%;
+    transform: translate(-50%, calc(-17px / 2));
+  }
+}
+
+@media (min-width: 1020px) {
+  .block__middle-text {
+    position: inherit;
+    text-align: center;
+    margin-top: 9px;
+  }
+  .block__number {
+    position: absolute;
+    top: 12px;
+    right: 17px;
+  }
+
+  .info-task__wrapper-img-Do, .info-task__wrapper-img-Plan,
+  .info-task__wrapper-img-Delegate, .info-task__wrapper-img-Drop {
+    margin-left: 20px;
+    position: relative;
+    top: -30px;
+  }
+}
+
+
+

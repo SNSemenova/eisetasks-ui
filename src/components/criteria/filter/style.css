@@ -1,0 +1,60 @@
+.button-urgent,
+.button-important,
+.button-clear {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+.button-clear {
+  background-image: url('./images/clear.svg');
+}
+.button-important {
+  background-image: url('./images/important.svg');
+}
+.button-urgent {
+  background-image: url('./images/urgent.svg');
+}
+
+.filter-name {
+  color: #c8c8c8;
+  font-size: 17px;
+  font-weight: 400;
+  display: inline-block;
+  margin-left: 9px;
+  position: relative;
+  top: -7px;
+}
+
+.important {
+  float: left;
+}
+
+.clear {
+  float: right;
+}
+
+.urgent {
+  display: inline-block;
+}
+
+.checkCriteria {
+  display: none;
+}
+
+.checkCriteria:checked + .button-clear {
+  background-image: url('./images/checked-c.svg');
+}
+
+.checkCriteria:checked + .button-important {
+  background-image: url('./images/checked-i.svg');
+}
+
+.checkCriteria:checked + .button-urgent {
+  background-image: url('./images/checked-u.svg');
+}
+
+@media (max-width: 332px) {
+  .filter-name {
+    margin-left: 0;
+  }
+}

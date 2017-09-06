@@ -1,0 +1,32 @@
+.content {
+    padding-top: 20px;
+}
+
+@media (max-width: 1020px) {
+  .page-layout {
+    margin: auto;	
+    background-color:  white;
+    height: 100vh;
+    position: relative;
+  }
+
+  .content {
+    padding-top: 20px;
+    margin: 0 3%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .page-layout {
+    height: 100%;
+    max-width: 100%;
+  }
+  .content {
+    position: absolute;
+    right: 55px;
+    display: block;
+    text-align: left;
+    width: calc(100vw - 270px);
+    height: calc(100vh - 100px);
+  }
+}

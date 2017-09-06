@@ -1,0 +1,36 @@
+.wrapper__arrow_bottom-left {
+    display: inline-block;
+    position: absolute;
+    width: 1rem;
+    left: 34%;
+}
+
+.wrapper__arrow_bottom-right {
+    display: inline-block;
+    position: absolute;
+    width: 1rem;
+    right: 34%;
+}
+.arrow__bottom-right,
+.arrow__bottom-left,
+.arrow__bottom-down,
+.arrow__bottom-up {
+    width: 1rem;
+    height: 1rem;
+    background-size: cover;
+    position: fixed;
+    bottom: calc(3% + 55px / 2 - (15px / 2) );
+    background-image: url(./images/arrow.svg);
+}
+
+.arrow__bottom-down {
+    transform: rotate(90deg);
+}
+
+.arrow__bottom-up {
+    transform: rotate(-90deg);
+}
+
+.arrow__bottom-left {
+    transform: rotate(180deg);
+}

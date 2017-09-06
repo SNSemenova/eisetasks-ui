@@ -1,0 +1,22 @@
+.message {
+  position: relative;
+  text-align: center;
+  top: 27px;
+  height: 150px;
+  color: #a9a9a9;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.timestamp {
+  color: #434343;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 20px 0 10px;
+}
+
+.done-tasks {
+  margin-top: -20px;
+}

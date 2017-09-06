@@ -1,0 +1,38 @@
+.wrapper__button-bottom {
+    display: inline-block;
+    position: absolute;
+    width: 26px;
+    right: calc(50% - (26px / 2));
+}
+
+@media (min-width: 1020px) {
+  .wrapper__button-bottom {
+    display: none;
+  }
+}
+.button-bottom-do,
+.button-bottom-plan,
+.button-bottom-delegate,
+.button-bottom-drop,
+.button-bottom-all {
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+    position: fixed;
+    bottom: calc(3% + 55px / 2 - (26px / 2) );
+}
+.button-bottom-all {
+    background-image: url(./images/allbutton.svg);
+}
+.button-bottom-do {
+    background-image: url(./images/1button.svg);
+}
+.button-bottom-plan {
+    background-image: url(./images/2button.svg);
+}
+.button-bottom-delegate {
+    background-image: url(./images/3button.svg);
+}
+.button-bottom-drop {
+    background-image: url(./images/4button.png);
+}

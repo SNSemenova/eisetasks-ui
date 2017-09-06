@@ -1,0 +1,48 @@
+@media (min-width: 1020px) {
+	.add-task__input {
+	  border: none;
+	  border-bottom: 1px solid #ffffff;
+	  color: #ffffff;
+	  font-size: 15px;
+	  font-weight: 300;
+	  letter-spacing: 0.54px;
+	  background: none;
+	  width: calc(100% - 20px);
+	}
+
+	.add-task__input:focus {
+	  outline: none;
+	}
+
+	.add-task__form {
+		display: inline-block;
+		margin-left: 80px;
+		width: 34.5%;
+		position: relative;
+	  top: -5px;
+	}
+
+	.add-task__input::-moz-placeholder { 
+	  color: #ffffff;
+	 }
+
+	.add-task__input::-webkit-input-placeholder {
+	  color: #ffffff;
+	}
+
+	.add-task__button {
+		width: 18px;
+		height: 18px;
+		background: rgba(0,0,0,0) url('./images/plus.png');
+		border: none;
+		display: inline-block;
+		cursor: pointer;
+    cursor: pointer;
+	}
+}
+
+@media (max-width: 1020px) {
+	.add-task__form {
+		display: none;
+	}
+}

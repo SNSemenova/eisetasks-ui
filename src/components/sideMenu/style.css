@@ -1,0 +1,114 @@
+.side-menu {
+  display: block;
+  height: calc(100vh - 60px);
+  float: left;
+  width: 200px;
+}
+
+.side-menu__link {
+  margin-left: 48px;
+  display: block;
+  color: #343434;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.64px;
+  padding: 20px 0 7px 9px;
+  text-decoration: none;
+}
+
+.side-menu__link:hover {
+  text-decoration: none;
+  color: #343434;
+}
+
+
+.side-menu__link-active {
+  font-weight: 500;
+}
+
+.side-menu__todo::before {
+  content: '';
+  vertical-align: -12%;
+  display: inline-block;
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/todo.svg);
+}
+
+.side-menu__todo-active::before {
+  content: '';
+  vertical-align: -12%;
+  display: inline-block;
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/todo_active.svg);
+}
+
+.side-menu__inbox::before {
+  content: '';
+  vertical-align: -12%;
+  display: inline-block;
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/inbox.svg);
+}
+
+.side-menu__inbox-active::before {
+  content: '';
+  vertical-align: -12%;
+  display: inline-block;
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/inbox_active.svg);
+}
+
+.side-menu__postponed::before {
+  content: '';
+  vertical-align: -12%;
+  display: inline-block;
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/postponed.svg);
+}
+
+.side-menu__postponed-active::before {
+  content: '';
+  vertical-align: -12%;
+  display: inline-block;
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/postponed_active.svg);
+}
+
+.side-menu__done::before {
+  content: '';
+  vertical-align: -12%;
+  display: inline-block;
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/done.svg);
+}
+
+.side-menu__done-active::before {
+  content: '';
+  vertical-align: -12%;
+  display: inline-block;
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/done_active.svg);
+}
+
+@media (max-width: 1020px) {
+  .side-menu {
+    display: none;
+  }
+}

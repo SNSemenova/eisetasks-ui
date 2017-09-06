@@ -1,0 +1,77 @@
+.filter {
+  display: inline-block;
+  text-align: left;
+}
+
+.complete-container {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+
+.important-criterion, .clear-criterion, .urgent-criterion {
+  cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+  .criteria {
+    margin: 14px auto;
+    text-align: center;
+  }
+
+  .important-criterion {
+  	float: left;
+  }
+
+  .clear-criterion {
+  	float: right;  
+    margin-right: 14px;
+  }    
+
+  .urgent-criterion {
+    display: inline-block;
+  }
+
+  .checkMark {
+    background-image: url("./images/check-mark.svg");
+    width: 69px;
+    height: 68px;
+    text-align: center;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+  }
+
+  .complete {
+    display: none;
+  }
+}
+
+@media (min-width: 1020px) {
+  .important-criterion, .clear-criterion, .urgent-criterion {
+    margin-bottom: 0;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+
+  .complete {
+    width: 160px;
+    height: 32px;
+    border-radius: 100px;
+    background-color: #74bbfd;
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+  }
+
+  .complete:disabled {
+    background-color: #c8c8c8;
+    cursor: default;
+  }
+
+  .criteria-container {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}

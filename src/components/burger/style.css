@@ -1,0 +1,160 @@
+/* Position and sizing of burger button */
+@media (max-width: 1020px) {
+  .bm-burger-button {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      left: 16px;
+      top: 16px;
+  }
+
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+      background-image: url(./images/menu.png);
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+      height: 24px;
+      width: 24px;
+  }
+
+
+  /* General sidebar styles */
+  .bm-menu {
+      width: 300px;
+      max-width: 88vw;
+      background: white;
+      color: #4a4a4a;
+      font-family: Roboto, sans-serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+  }
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+        fill: greenyellow;
+    }
+
+  .bm-overlay {
+      position: relative;
+      right: -20px;
+      background: rebeccapurple;
+  }
+
+  .burger-menu__header {
+      height: 142px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06), 0 0 4px rgba(0, 0, 0, 0.12);
+      background-image: linear-gradient(135deg, #96efbe 0%, #73baff 100%);
+  }
+  .burger-menu__wrapper {
+      padding-left: 3.75%;
+      padding-top: 19px;
+  }
+  .burger-menu__close {
+      width: 1rem;
+      height: 1rem;
+      margin-bottom: 10px;
+      background-image: url(./images/shape.svg);
+      background-size: cover;
+  }
+  .burger-menu__log {
+      float: left;
+      margin-left: 6.8%;
+      width: 70px;
+      height: 70px;
+      max-width: 20vw;
+      max-height: 20vw;
+      border-radius: 50%;
+      border: 2px solid #ffffff;
+      background-color: #d8d8d8;
+      background-size: cover;
+  }
+  .burger-menu__wrapper_block-welcome-text {
+      display: inline-block;
+      width: 140px;
+      height: 70px;
+      max-width: 46vw;
+      max-height: 20vw;
+      color: #ffffff;
+      font-size: 19px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      line-height: 25px;
+      overflow: hidden;
+      position: relative;
+  }
+  .burger-menu__block-welcome-text {
+      line-height: 21px;
+  }
+  .burger-menu__wrapper-content {
+      min-height: calc(100vh - 142px - 182px - 45px);
+      margin-top: 45px;
+      margin-left: 9.3%;
+      margin-right: 9.3%;
+  }
+  .burger-menu__wrapper-content-intern {
+      margin-bottom: 22px;
+  }
+  .burger-menu__wrapper-icon {
+      cursor: pointer;
+      width: 1rem;
+      height: 1rem;
+      display: inline-block;
+      float: left;
+  }
+  .burger-menu__wrapper-icon_profile {
+      background-image: url(./images/profile.svg);
+      background-size: cover;
+  }
+  .burger-menu__wrapper-icon_help {
+      background-image: url(./images/help.svg);
+      background-size: cover;
+  }
+  .burger-menu__wrapper-icon_logout {
+      background-image: url(./images/logout.svg);
+      background-size: cover;
+  }
+  .burger-menu-wrapper-text {
+      cursor: pointer;
+      float: left;
+      margin-top: -2px;
+      margin-left: 14px;
+  }
+  .hr {
+      width: 100%;
+      border: 1px solid #979797;
+      color: #979797;
+      background-color: #979797;
+  }
+  .burger-menu__footer {
+      height: 160px;
+      width: 100%;
+      background-image: url(./images/mountain.png);
+      background-size: cover;
+  }
+}
+
+@media (min-width: 1020px) {
+    .bm-menu {
+        display: none;
+    }
+
+    .bm-menu-wrap {
+        display: none;
+    }
+
+    .bm-overlay {
+        display: none;
+    }
+
+    .bm-burger-button {
+        display: none;
+    }
+
+    .burger-menu__footer {
+        height: 160px;
+        width: 100%;
+        background-image: url(./images/mountain.png);
+        background-size: cover;
+    }
+}

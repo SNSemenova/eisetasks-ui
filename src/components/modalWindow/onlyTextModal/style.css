@@ -1,0 +1,43 @@
+.only-text-modal__button-close {
+  margin-top: 6vh;
+  margin-bottom: 9vh;
+  cursor: pointer;
+  color: #4a90e2;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.61px;
+  text-transform: uppercase;
+}
+
+.only-text-modal__topic-text {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 39px;
+  color: #242424;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.only-text-modal__container {
+  text-align: center;
+}
+
+.only-text-modal__email {
+  color: #000000;
+}
+
+.ReactModal__Overlay {
+  z-index: 200 !important;
+}
+
+@media (max-width: 1020px) {
+  .only-text-modal__topic-text {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.61px;
+    line-height: 26px;
+  }
+}

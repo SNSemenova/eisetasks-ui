@@ -1,0 +1,14 @@
+.layout {
+  max-width: 1300px;
+  margin: auto;	
+  background-color:  white;
+  height: 100vh;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    height: 100%;
+    max-width: 100%;
+  }
+}

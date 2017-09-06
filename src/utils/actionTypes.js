@@ -1,0 +1,56 @@
+export const SET_TASKS_UI = 'SET_TASKS_UI';
+export const SET_TASKS_NUI = 'SET_TASKS_NUI';
+export const SET_TASKS_UNI = 'SET_TASKS_UNI';
+export const SET_TASKS_NUNI = 'SET_TASKS_NUNI';
+export const SET_POSTPONED_TASKS = 'SET_POSTPONED_TASKS';
+export const SET_DONE_TASKS = 'SET_DONE_TASKS';
+export const SET_INBOX_TASKS = 'SET_INBOX_TASKS';
+
+
+export const SET_FILTERS = 'SET_FILTERS';
+
+
+export const MOVE_TASK_UI = 'MOVE_TASK_UI';
+export const MOVE_TASK_NUI = 'MOVE_TASK_NUI';
+export const MOVE_TASK_UNI = 'MOVE_TASK_UNI';
+export const MOVE_TASK_NUNI = 'MOVE_TASK_NUNI';
+export const MOVE_POSTPONED_TASK =  'MOVE_POSTPONED_TASK';
+export const MOVE_INBOX_TASK =  'MOVE_POSTPONED_TASK';
+
+
+
+export const SET_LENGTH_TASKS_UI = 'SET_LENGTH_TASKS_UI';
+export const SET_LENGTH_TASKS_NUI = 'SET_LENGTH_TASKS_NUI';
+export const SET_LENGTH_TASKS_UNI = 'SET_LENGTH_TASKS_UNI';
+export const SET_LENGTH_TASKS_NUNI = 'SET_LENGTH_TASKS_NUNI';
+
+
+export const UPDATE_TASK_UI = 'UPDATE_TASK_UI';
+export const UPDATE_TASK_NUI = 'UPDATE_TASK_NUI';
+export const UPDATE_TASK_UNI = 'UPDATE_TASK_UNI';
+export const UPDATE_TASK_NUNI = 'UPDATE_TASK_NUNI';
+export const UPDATE_TASK_POSTPONED = 'UPDATE_TASK_POSTPONED';
+export const UPDATE_TASK_INBOX = 'UPDATE_TASK_INBOX';
+
+
+export const GET_NEW_TASK = 'GET_NEW_TASK';
+export const REMOVE_TASK = 'REMOVE_TASK';
+
+
+export const CHECK_TASK =  'CHECK_TASK';
+export const SET_POSTPONED_TASKS_SCROLL = 'SET_POSTPONED_TASKS_SCROLL';
+export const CHECK_FILTER =  'CHECK_FILTER';
+export const MARK_TASK =  'MARK_TASK';
+export const FINISH_MARKING =  'FINISH_MARKING';
+export const CLEAR_MARKED =  'CLEAR_MARKED';
+
+export const SET_TODO_QUANDRANT_PAGE = 'SET_TODO_QUANDRANT_PAGE';
+
+export const SET_TOKEN = 'SET_TOKEN';
+export const DELETE_TOKEN = 'DELETE_TOKEN';
+export const SIGN_UP = 'SIGN_UP';
+export const SET_OPEN_MODAL = 'SET_OPEN_MODAL';
+export const MOVE_DONE_TASK = 'MOVE_DONE_TASK';
+export const CONFIRM_REG = 'CONFIRM_REG';
+export const SET_STATE = 'SET_STATE';
+export const CLEAR_FLAG = 'CLEAR_FLAG';

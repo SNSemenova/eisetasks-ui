@@ -1,0 +1,106 @@
+.modal__block {
+  display: inline-block;
+  float: left;
+  z-index: 3;
+}
+
+.editTask {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  top:5px;
+  border: none;
+  background: white url('../../task/images/pencil.png') no-repeat;
+  cursor: pointer;
+}
+
+.edit {
+    display: inline-block;
+}
+
+textarea[type="text"]:focus { outline: none; }
+.marker {
+  display: inline-block;
+  position:absolute;
+  width: 59px;
+  right: 3%;
+  z-index: 2;
+}
+
+.addTask {
+  width: 69px;
+  height: 68px;
+  background-image: url(./images/add.svg);
+  text-align: center;
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+}
+
+.modal__topic-text {
+  height: 12px;
+  color: #757575;
+  font-family: Roboto, serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.form__submit-button,
+.modal__button {
+  display: inline-block;
+  margin-top: 15px;
+  height: 24px;
+  color: #31cf70;
+  font-family: Roboto, serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  float: right;
+}
+
+.modal__button {
+  margin-right: 20px;
+}
+
+.form {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.textarea {
+  width: inherit;
+  border: none;
+  resize: none;
+  height: 1px;
+  max-height: 78px;
+  border-bottom: 1px solid #606060;
+}
+
+.modal {
+  display: inline-block;
+  max-width: 1300px;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: auto 50% auto auto;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 10%;
+  bottom: auto;
+}
+
+.no-display {
+    display: none;
+}
+
+@media (min-width: 1020px) {
+  .addTask {
+    display: none;
+  }
+}

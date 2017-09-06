@@ -1,0 +1,11 @@
+.message {
+  position: relative;
+  text-align: center;
+  top: 27px;
+  height: 150px;
+  color: #a9a9a9;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 19px;
+}
+

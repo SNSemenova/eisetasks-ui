@@ -1,0 +1,208 @@
+.task {
+  margin: 3px 2px;
+  background-color: #ffffff;
+  padding: 8px 12px;
+  height: initial;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.task-name {
+  display: inline-block;
+  position: relative;
+  max-height: 20px;
+  top: 2px;
+  left: 11px;
+  max-width: 94%;
+  font-size: 17px;
+  font-weight: 300;
+  color: #535353;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+}
+
+.task-name-opened {
+  max-height: 78px;
+  max-width: calc(94% - 60px);
+  white-space: normal;
+  margin: 0;
+}
+
+.buttons {
+  float: right;
+}
+
+.button-delete {
+  width: 11px;
+  height: 14px;
+  display: inline-block;
+  border: none;
+  position: relative;
+  top: 3px;
+  background: url('./images/delete.png') no-repeat;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.button-move {  
+  width: 17px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 19px; 
+  border: none;
+  position: relative;
+  top: 4px;
+  background: url('./images/inbox.png') no-repeat;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.button-postpone {
+  position: relative;
+  top: 3px;
+  width: 17px;
+  height: 14px;
+  border: none;
+  background: url('./images/postpone.png') no-repeat;    
+  margin-left: 14px;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.button-copy {
+  display: inline-block;
+  height: 23px;
+  width: 20px;
+  margin-left: 20px; 
+  border: none;
+  position: relative;
+  background: url('./images/copy.svg') no-repeat;
+  float: right;
+  cursor: pointer;
+}
+
+.left-button {
+  float: left;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  border: 1px solid #979797;
+  background: none;
+  padding: 0;
+  top: 5px;
+  position: relative;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.tick {
+  width: 16px;
+  height: 12px;
+  background: url('./images/tick.svg') no-repeat;
+  border: none;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+}
+
+.rectangle {
+  width: 10px;
+  height: 10px;
+  border-radius: 1px;
+  border: 1px solid #979797;
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
+
+.rect-check {
+  display: none;
+}
+
+.checked-rect {
+  background-image: url('./images/checked-rect.svg');
+  width: 12px;
+  height: 12px; 
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  background-size: cover;
+}
+
+.label-i {
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+  background: url('./images/label-i.svg') no-repeat;
+  display: inline-block;
+  left: 24px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.label-u {
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+  background: url('./images/label-u.svg') no-repeat;
+  display: inline-block;
+  left: 24px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.label-c {
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+  background: url('./images/label-c.svg') no-repeat;
+  display: inline-block;
+  left: 24px;
+  position: relative;
+}
+
+.checked-i {
+  background: url('./images/checked-i.svg') no-repeat;
+  display: inline-block;
+  left: 24px;
+  position: relative;
+  margin-right: 10px;
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+}
+
+.checked-u {
+  background: url('./images/checked-u.svg') no-repeat;
+  display: inline-block;
+  left: 24px;
+  position: relative;
+  margin-right: 10px;
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+}
+
+.checked-c {
+  background: url('./images/checked-c.svg') no-repeat;
+  display: inline-block;
+  left: 24px;
+  position: relative;
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+}
+
+.no-visible {
+  visibility: hidden;
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  left: 24px;
+  position: relative;  
+  margin-right: 10px;
+}

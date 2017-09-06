@@ -1,0 +1,39 @@
+.form-layout {
+	text-align: center;
+}
+
+.logo {
+	display: inline-block;
+	margin-top: 15vh;
+}
+
+.logo__image {
+	background-image: url("./images/logo.svg");
+	width: 43px;
+  height: 43px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.logo__title {
+	color: #505050;
+	font-weight: 400;
+	font-size: 32px;
+	letter-spacing: 1.16px;
+	display: inline-block;
+	position: relative;
+  bottom: 8px;
+  margin-left: 15px;
+}
+
+@media (min-width: 1465px) {
+  .logo {
+    margin-top: 18vh;
+  }
+}
+
+@media (max-height: 480px) {
+  .logo {
+    margin-top: 4vh;
+  }
+}

@@ -1,0 +1,28 @@
+.logout {
+  display: table;
+  float: right;
+  height: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+.logout__text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logout__pic {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url('images/log-out.svg');
+  margin-left: 10px;
+}
+
+.logout:hover {
+  text-decoration: underline;
+}
+
